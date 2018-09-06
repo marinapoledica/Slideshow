@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+/*min width 850px*/
+.slide-sadrzaj {
+    position: relative;
+    background-color: #333;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.mySlides{
+    text-align: center;
+    padding: 0px 20px 0 20px;
+}
+
+.mySlides img {
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute; 
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.maleSlike {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slicice {
+    margin: 30px;
+    width: 150px;
+    height: 100px;
+    opacity: 0.6;
+    border-radius: 3px;
+}
+
+.active,
+.slicice:hover {
+    opacity: 1;
+    border: 1px solid black;
+    width: 148px;
+    height: 98px;
+}
+
+.selektovana-slika {
+    opacity: 1;
+    border: 1px solid black;
+    width: 148px;
+    height: 98px;  
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    font-size: 20px;
+    opacity: 0.8;
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 10px;
+}
